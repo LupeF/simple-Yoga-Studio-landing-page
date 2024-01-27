@@ -1,0 +1,81 @@
+body{
+    background-color: #2E3B41;
+    position: relative;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+main{
+    margin: 5em auto;
+    width: 90%;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    height: 500px;
+}
+.burger-container{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    padding: 2em;
+}
+.burger-menu{
+    position: absolute;
+    height: 5px;
+    width: 35px;
+    border-radius:5px;
+    background-color: #2E3B41;
+}
+.burger-menu::before,
+::after{
+    height: 5px;
+    width: 35px;
+    border-radius:5px;
+    background-color: #2E3B41;
+}
+.burger-menu::after{
+    top: 10px;
+    content:"";
+    position: absolute;
+}
+.burger-menu::before{
+    bottom: 10px;
+    content:"";
+    position: absolute;
+}
+.content-container{
+    text-align: center;
+    padding: 3em;
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+}
+a {
+    padding: .5em;
+    text-decoration: none;
+    border-radius: 10px;
+    justify-content: center;
+    flex-grow: 1;
+    margin: 5px;
+}
+#join-btn{
+    background-color: #F88CAC;
+    color: white;
+}
+#schedule-btn{
+    background-color: #E9F0FD;
+    color: #2E3B41;
+}
+img{
+    position: absolute;
+    width: 100%;
+    top: 90mm;
+}
+svg{
+    position: absolute;
+    height: 350px;
+    width: 350px;
+    left: 40px;
+    top: 90mm;
+    /* top: 0; */
+}
