@@ -1,6 +1,6 @@
 body{
     background-color: #2E3B41;
-    position: relative;
+    /* position: relative; */
     margin: 0;
     font-family: 'Inter', sans-serif;
 }
@@ -9,7 +9,8 @@ main{
     width: 90%;
     background-color: #FFFFFF;
     border-radius: 10px;
-    height: 500px;
+    height: 520px;
+    max-width: 600px;
 }
 .burger-container{
     display: flex;
@@ -68,14 +69,18 @@ a {
 }
 img{
     position: absolute;
+    height: 400px;
     width: 100%;
-    top: 90mm;
 }
 svg{
     position: absolute;
     height: 350px;
     width: 350px;
-    left: 40px;
-    top: 90mm;
-    /* top: 0; */
+
 }
+.img-container{
+    position:relative;
+    display: flex;
+    justify-content: center;
+    bottom: 16em;
+}   
